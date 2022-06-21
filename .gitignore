@@ -1,21 +1,39 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+Testing
+install_manifest.txt
+_deps
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# CMake:
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+build/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# GNU Autotools:
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+configure
+depcomp
+install-sh
+missing
+src/.deps/
+src/Makefile.in
+src/*.o
+src/sonar_scanner_example
 
-# Executables
-*.exe
-*.out
-*.app
+# Visual Studio
+out
+.vs
+Debug
+Release
+
+# XCode
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
